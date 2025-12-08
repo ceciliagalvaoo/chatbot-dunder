@@ -91,3 +91,55 @@ def find_related_emails(employee_name: str, amount: str, description: str = "") 
     return "\n".join(matches)
 
 
+# Analisa uma transação individual considerando contexto de e-mails e compliance
+def check_transaction_with_context(row: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Analisa UMA transação considerando contextos de e-mail.
+    Retorna:
+    {
+      "row": {...},
+      "fraud_suspected": bool,
+      "justification": "...",
+      "email_evidence": ["...", "..."],
+      "policy_evidence": ["...", "..."]
+    }
+    """
+    # Extrai informações da transação
+    employee = row.get("funcionario", "") or row.get("employee", "")
+    amount = row.get("valor", "") or row.get("amount", "")
+    description = row.get("descricao", "") or row.get("description", "")
+
+    # Busca e-mails relacionados a esta transação (nome, valor OU descrição)
+    emails_context = find_related_emails(employee, str(amount), description)
+
+    # Se não há e-mails relacionados, marca como não suspeito
+    if not emails_context.strip():
+        return {
+            "row": row,
+            "fraud_suspected": False,
+            "justification": "Nenhum e-mail relacionado foi encontrado para esta transação.",
+            "email_evidence": [],
+            "policy_evidence": [],
+        }
+
+    # Recupera trechos relevantes da política de compliance
+    policy_docs = retrieve_relevant(
+        f"{row.get('descricao', '')} {row.get('categoria', '')} {amount}",
+        k=2,
+    )
+    policy_context = "\n\n---\n\n".join(d["text"] for d in policy_docs)
+
+    # Constrói o prompt com todos os contextos: compliance, transação e e-mails
+    user_prompt = f"""
+REGRAS DE COMPLIANCE (trechos relevantes):
+{policy_context}
+
+TRANSACAO:
+{row}
+
+TRECHOS DE E-MAILS RELACIONADOS (se houver):
+\"\"\" 
+{emails_context}
+\"\"\"
+
+
