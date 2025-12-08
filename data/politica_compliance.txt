@@ -1,0 +1,107 @@
+DUNDER MIFFLIN PAPER COMPANY, INC.
+MANUAL DE CONDUTA CORPORATIVA, ÉTICA E POLÍTICA DE REEMBOLSO DE DESPESAS
+Filial: Scranton, PA (Regional Northeast)
+Código do Documento: DM-COMP-2008-V4
+Autor: Toby Flenderson (Representante de Recursos Humanos)
+Aprovado por: David Wallace (CFO) e Kendall Kendall (RH Corporativo - NY)
+Data de Vigência: 01 de Janeiro de 2008
+
+==============================================================================
+PREFÁCIO
+==============================================================================
+A Dunder Mifflin ("A Empresa") preza por um ambiente de trabalho profissional, livre de distrações, brincadeiras perigosas e fraudes financeiras. Este manual substitui todas as diretrizes anteriores (incluindo o memorando "Vamos nos divertir" distribuído pelo Gerente Regional em 2006). O objetivo destas regras é garantir a solvência financeira da filial de Scranton e evitar processos judiciais.
+
+O dinheiro da empresa deve ser utilizado estritamente para fins comerciais: a venda de papel e produtos de escritório.
+
+==============================================================================
+SEÇÃO 1: ALÇADAS DE APROVAÇÃO E CONTROLE FINANCEIRO
+==============================================================================
+Para mitigar riscos de desfalque, as seguintes faixas de aprovação devem ser rigorosamente observadas. A "Regra de Ouro": Na dúvida, não gaste.
+
+1.1. DESPESAS MENORES (Categoria C - Até US$ 50,00)
+   - Autoridade: O funcionário possui autonomia para realizar o gasto.
+   - Requisito Documental: Recibo fiscal original (não aceitamos guardanapos escritos à mão).
+   - Prazo: O reembolso deve ser solicitado à Contabilidade (Angela Martin) em até 30 dias.
+   - Exemplos Válidos: Café para clientes, táxi/Uber para reuniões num raio de 10km, material de escritório emergencial (canetas, grampos).
+
+1.2. DESPESAS INTERMEDIÁRIAS (Categoria B - De US$ 50,01 a US$ 500,00)
+   - Autoridade: Requer aprovação prévia e por escrito do Gerente Regional (Michael Scott).
+   - Cláusula de Substituição: Na ausência do Gerente Regional, a aprovação deve vir do RH (Toby Flenderson). O cargo de "Assistant to the Regional Manager" (Assistente DO Gerente Regional) é puramente honorário e NÃO CONFERE autoridade financeira para assinar cheques ou aprovar reembolsos.
+   - Validade da Assinatura: Assinaturas feitas com canetas de tinta "glitter", marcadores permanentes ou assinaturas em nome de personagens fictícios ("Lord Ruprecht", "Agent Scarn") são nulas.
+
+1.3. GRANDES DESPESAS (Categoria A - Acima de US$ 500,00)
+   - Autoridade: Requer "Pedido de Compra" (Purchase Order - PO) formalmente emitido e numerado.
+   - Aprovação Final: Deve ser assinado pelo CFO (David Wallace) ou VP de Vendas Regional.
+   - Proibição de "Smurfing" (Estruturação): É terminantemente proibido dividir uma compra de valor alto (ex: US$ 800) em duas notas menores (ex: duas de US$ 400) para contornar a necessidade de aprovação da Matriz. A detecção desta prática resultará em suspensão imediata.
+
+==============================================================================
+SEÇÃO 2: CATEGORIZAÇÃO DE GASTOS E ITENS PERMITIDOS
+==============================================================================
+A classificação correta no sistema contábil é mandatória. "Outros" e "Diversos" não são categorias aceitáveis para valores acima de US$ 5,00.
+
+2.1. REFEIÇÕES E ENTRETENIMENTO COM CLIENTES
+   - Objetivo: Devem ter como fim exclusivo o fechamento de negócios.
+   - Locais Aprovados: Chili's, Cugino's, Cooper's Seafood, Poor Richard's Pub (apenas almoço).
+   - Locais Restritos: O restaurante "Hooters" está banido da lista de reembolso corporativo, a menos que o cliente especificamente solicite por escrito. (Nota: Michael, isso não é uma brecha para você forçar o cliente a pedir).
+   - Bebidas Alcoólicas: Permitidas apenas se o cliente pedir primeiro. Limite de 2 drinks por funcionário da Dunder Mifflin.
+
+2.2. VIAGENS CORPORATIVAS
+   - Passagens Aéreas: Apenas Classe Econômica. O upgrade para "Executiva" só é permitido em voos intercontinentais (o que não se aplica a viagens para Winnipeg ou Stamford).
+   - Hospedagem: Hotéis categoria 3 estrelas (Best Western, Radisson). O uso do frigobar, canais de TV pagos ("Pay-per-view") e serviços de spa não são reembolsáveis.
+   - Carro Alugado: Categoria Intermediária. Conversíveis (Chrysler Sebring) são proibidos devido ao seguro elevado.
+
+2.3. MATERIAL DE ESCRITÓRIO E TECNOLOGIA
+   - Definição: Itens essenciais para a operação administrativa (papel, toner, clipes).
+   - Tecnologia: A compra de servidores, licenças de software, tablets ou "gadgets" inovadores requer avaliação do departamento de TI. A filial de Scranton não tem departamento de TI oficial (apenas o funcionário contratado via agência), portanto, toda compra de TI acima de US$ 100 deve passar pelo RH.
+
+==============================================================================
+SEÇÃO 3: LISTA NEGRA (ITENS ESTRITAMENTE PROIBIDOS)
+==============================================================================
+A compra ou solicitação de reembolso dos itens abaixo constitui violação grave de compliance e possível justa causa.
+
+3.1. ENTRETENIMENTO INADEQUADO E "MÁGICA"
+   - A Dunder Mifflin vende papel. Nós não vendemos entretenimento.
+   - Estão proibidos: Kits de mágica, algemas de escape, correntes, fumaça em pó, pombos treinados, baralhos marcados e serviços de "Strippers" (masculinos ou femininos) para o escritório.
+   - Equipamentos de karaokê ou luzes de discoteca não são considerados "equipamento de apresentação".
+
+3.2. ARMAMENTO E DEFESA PESSOAL
+   - O escritório é uma zona livre de armas.
+   - Estão proibidos: Armas de fogo, armas de airsoft, armas brancas (espadas, katanas), estrelas ninja, nunchakus, spray de pimenta (uso industrial) e equipamentos de camuflagem.
+   - Armadilhas para animais (ursos, guaxinins) não podem ser instaladas no estacionamento.
+
+3.3. CONFLITO DE INTERESSES E NEGÓCIOS PARALELOS (CLÁUSULA "RYAN/JAN")
+   - É proibido usar verba da empresa para investir, divulgar ou manter negócios pessoais dos funcionários.
+   - Proibições Específicas:
+     a) Investimento em Startups de Tecnologia, Redes Sociais ou Portais de Comunicação (ex: WUPHF.com, Dunder Infinity).
+     b) Compra de velas artesanais para revenda ou "uso no escritório" se o fornecedor for parente ou cônjuge de funcionário.
+     c) Agroturismo ou venda de produtos agrícolas (beterrabas) dentro do escritório.
+
+==============================================================================
+SEÇÃO 4: CONDUTA E RELACIONAMENTOS
+==============================================================================
+
+4.1. RELACIONAMENTOS AMOROSOS
+   - De acordo com a política corporativa "Love Contract", qualquer relacionamento romântico entre funcionários deve ser declarado ao RH.
+   - É proibido usar verba de "Almoço com Cliente" para encontros românticos com outros funcionários (ex: Jim e Pam, Kelly e Ryan).
+
+4.2. COMITÊ DE PLANEJAMENTO DE FESTAS (PPC)
+   - O orçamento é fixo e auditado anualmente.
+   - Decisões sobre o sabor do bolo ou tipo de sorvete devem ser tomadas por voto da maioria. O veto unilateral do Presidente do Comitê é proibido se violar o teto de gastos.
+   - É proibido o desvio de verba do PPC para "Festas de Natal Marroquinas" que envolvam danos ao patrimônio (fogo no cabelo de funcionários).
+
+==============================================================================
+SEÇÃO 5: SANÇÕES DISCIPLINARES
+==============================================================================
+Violações a estas políticas resultarão nas seguintes medidas escalonadas:
+1. Advertência Verbal (Documentada por Toby).
+2. Advertência Escrita ("Write-up") - Três advertências resultam em ação disciplinar.
+3. Relatório de Desempenho Negativo enviado a Nova York.
+4. "Full Disadulation" (Desadulação Completa - termo revogado, manter apenas Demissão por Justa Causa).
+
+Dúvidas devem ser encaminhadas ao anexo do RH. Por favor, não retire os documentos das pastas plásticas.
+
+Atenciosamente,
+
+Toby Flenderson
+Representante de Recursos Humanos
+Dunder Mifflin, Scranton

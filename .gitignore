@@ -1,0 +1,14 @@
+# Segredos
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env (se criar)
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
