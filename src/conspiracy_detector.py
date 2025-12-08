@@ -4,7 +4,7 @@ from typing import Dict, Any, List
 from .llm_client import llm_json
 
 # Define os caminhos base do projeto e localização dos arquivos de dados
-ROOT_DIR = Path(_file_).resolve().parents[1]
+ROOT_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT_DIR / "data"
 EMAILS_PATH = DATA_DIR / "emails_internos.txt"
 
