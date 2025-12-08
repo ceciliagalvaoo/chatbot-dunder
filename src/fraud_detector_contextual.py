@@ -143,3 +143,68 @@ TRECHOS DE E-MAILS RELACIONADOS (se houver):
 \"\"\"
 
 
+TAREFA:
+Decida se esta transação é POTENCIALMENTE FRAUDULENTA quando
+consideramos o contexto das conversas por e-mail.
+
+Responda EM JSON no formato:
+
+{{
+  "fraud_suspected": true/false,
+  "justification": "explique em 2-3 frases, mencionando o tipo de fraude, se houver",
+  "email_evidence": [
+    "trecho ou síntese de e-mail relevante 1",
+    "trecho ou síntese de e-mail relevante 2"
+  ],
+  "policy_evidence": [
+    "resumo de regra de compliance aplicada 1"
+  ]
+}}
+"""
+
+    # Envia para o LLM e recebe análise estruturada em JSON
+    result = llm_json(user_prompt, system=SYSTEM_PROMPT)
+
+    # Retorna resultado estruturado com todas as evidências
+    return {
+        "row": row,
+        "fraud_suspected": bool(result.get("fraud_suspected", False)),
+        "justification": result.get("justification", ""),
+        "email_evidence": result.get("email_evidence", []),
+        "policy_evidence": result.get("policy_evidence", []),
+    }
+
+
+# Função principal que executa análise contextual em todas (ou algumas) transações
+def run_contextual_fraud_check(
+    max_rows: Optional[int] = None,
+) -> List[Dict[str, Any]]:
+    """
+    Analisa transações com contexto de e-mails.
+
+    - max_rows: se definido, limita quantas transações serão analisadas (modo demo).
+
+    Retorna lista de dicts no formato de check_transaction_with_context.
+    """
+    # Carrega todas as transações do CSV
+    rows = _load_transactions()
+    
+    # Limita número de transações se solicitado (útil para testes)
+    if max_rows is not None:
+        rows = rows[:max_rows]
+
+    results: List[Dict[str, Any]] = []
+    total = len(rows)
+
+    # Processa cada transação individualmente
+    for i, row in enumerate(rows, start=1):
+        print(f"🔎 Analisando transação (contexto) {i}/{total} (id={row.get('id_transacao')})...")
+        try:
+            res = check_transaction_with_context(row)
+            results.append(res)
+        except Exception as e:
+            # Ignora erros individuais e continua processando as demais
+            print("⚠️ Erro ao analisar transação com contexto, ignorando:", e)
+            continue
+
+    return results
