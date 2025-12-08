@@ -92,3 +92,35 @@ Responda EM JSON, no formato:
     }
 
 
+# Função principal que executa verificação simples em todas (ou algumas) transações
+def run_simple_fraud_check(
+    max_rows: Optional[int] = None,
+) -> List[Dict[str, Any]]:
+    """
+    Roda a verificação em até max_rows transações (modo demo).
+    Se max_rows for None, roda em todas (cuidado com tokens!).
+
+    Retorna lista de dicts no formato de check_transaction_row.
+    """
+    # Carrega todas as transações do CSV
+    rows = _load_transactions()
+    
+    # Limita número de transações se solicitado (útil para testes)
+    if max_rows is not None:
+        rows = rows[:max_rows]
+
+    results: List[Dict[str, Any]] = []
+    total = len(rows)
+    
+    # Processa cada transação individualmente
+    for i, row in enumerate(rows, start=1):
+        print(f"🔎 Analisando transação {i}/{total} (id={row.get('id_transacao')})...")
+        try:
+            res = check_transaction_row(row)
+            results.append(res)
+        except Exception as e:
+            # Ignora erros individuais e continua processando as demais
+            print("⚠️ Erro ao analisar esta transação, ignorando:", e)
+            continue
+
+    return results
